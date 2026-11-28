@@ -1,0 +1,117 @@
+DEBUG - 2026-11-27 06:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-27 06:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-27 06:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-27 06:24:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-27 06:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-27 06:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-27 06:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-27 06:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-27 06:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-27 06:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-27 06:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-27 06:32:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-27 06:32:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-27 06:32:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-27 06:33:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-27 06:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-27 06:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-27 06:33:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-27 06:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-27 06:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-27 06:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-27 06:34:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-27 06:34:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-27 06:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-27 06:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-27 06:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-27 06:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-27 06:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-27 06:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-27 06:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-27 06:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-27 06:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-27 06:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-27 06:36:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-27 10:06:02 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "**"
+[Method: GET, Route: %2A%2A]
+in SYSTEMPATH/Router/Router.php on line 766.
+ 1 SYSTEMPATH/Router/Router.php(215): CodeIgniter\Router\Router->checkDisallowedChars('**')
+ 2 SYSTEMPATH/CodeIgniter.php(850): CodeIgniter\Router\Router->handle('**')
+ 3 SYSTEMPATH/CodeIgniter.php(462): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-27 10:06:51 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "**"
+[Method: GET, Route: %2A%2A]
+in SYSTEMPATH/Router/Router.php on line 766.
+ 1 SYSTEMPATH/Router/Router.php(215): CodeIgniter\Router\Router->checkDisallowedChars('**')
+ 2 SYSTEMPATH/CodeIgniter.php(850): CodeIgniter\Router\Router->handle('**')
+ 3 SYSTEMPATH/CodeIgniter.php(462): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-27 10:11:03 --> Error: Call to undefined function CodeIgniter\Session\Handlers\chmod()
+[Method: GET, Route: /]
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 140.
+ 1 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read('0132789d30fd9c13f45bc715a35876a9')
+ 2 SYSTEMPATH/Session/Session.php(240): session_regenerate_id(false)
+ 3 SYSTEMPATH/Session/Session.php(127): CodeIgniter\Session\Session->regenerate(false)
+ 4 SYSTEMPATH/Config/Services.php(714): CodeIgniter\Session\Session->start()
+ 5 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 6 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 7 SYSTEMPATH/Config/Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 8 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::session()
+ 9 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic('session', [])
+10 SYSTEMPATH/Common.php(1095): CodeIgniter\Config\BaseService::get('session')
+11 SYSTEMPATH/Common.php(1068): service('session')
+12 APPPATH/Controllers/Auth.php(10): session()
+13 SYSTEMPATH/CodeIgniter.php(972): App\Controllers\Auth->login()
+14 SYSTEMPATH/CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+15 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+17 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+18 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-27 10:19:23 --> Error: Call to undefined function CodeIgniter\Session\Handlers\chmod()
+[Method: GET, Route: /]
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 140.
+ 1 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read('d22152565be9fd22be06771bb0f71414')
+ 2 SYSTEMPATH/Session/Session.php(240): session_regenerate_id(false)
+ 3 SYSTEMPATH/Session/Session.php(127): CodeIgniter\Session\Session->regenerate(false)
+ 4 SYSTEMPATH/Config/Services.php(714): CodeIgniter\Session\Session->start()
+ 5 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 6 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 7 SYSTEMPATH/Config/Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 8 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::session()
+ 9 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic('session', [])
+10 SYSTEMPATH/Common.php(1095): CodeIgniter\Config\BaseService::get('session')
+11 SYSTEMPATH/Common.php(1068): service('session')
+12 APPPATH/Controllers/Auth.php(10): session()
+13 SYSTEMPATH/CodeIgniter.php(972): App\Controllers\Auth->login()
+14 SYSTEMPATH/CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+15 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+17 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+18 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-27 10:19:33 --> Error: Call to undefined function CodeIgniter\Session\Handlers\chmod()
+[Method: GET, Route: /]
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 140.
+ 1 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read('a8234c3eb7aa563b9fb01e0669dd39f8')
+ 2 SYSTEMPATH/Session/Session.php(240): session_regenerate_id(false)
+ 3 SYSTEMPATH/Session/Session.php(127): CodeIgniter\Session\Session->regenerate(false)
+ 4 SYSTEMPATH/Config/Services.php(714): CodeIgniter\Session\Session->start()
+ 5 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 6 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 7 SYSTEMPATH/Config/Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 8 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::session()
+ 9 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic('session', [])
+10 SYSTEMPATH/Common.php(1095): CodeIgniter\Config\BaseService::get('session')
+11 SYSTEMPATH/Common.php(1068): service('session')
+12 APPPATH/Controllers/Auth.php(10): session()
+13 SYSTEMPATH/CodeIgniter.php(972): App\Controllers\Auth->login()
+14 SYSTEMPATH/CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+15 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+17 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+18 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

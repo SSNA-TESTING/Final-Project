@@ -1,0 +1,77 @@
+CRITICAL - 2026-11-28 06:05:54 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: customers]
+in APPPATH/Controllers/Customers.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-11-28 06:06:03 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: customers]
+in APPPATH/Controllers/Customers.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-11-28 06:06:04 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: customers]
+in APPPATH/Controllers/Customers.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-11-28 06:06:07 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: customers]
+in APPPATH/Controllers/Customers.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-11-28 06:06:13 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: customers]
+in APPPATH/Controllers/Customers.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-11-28 06:06:29 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: customers]
+in APPPATH/Controllers/Customers.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-11-28 06:07:36 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: customers]
+in APPPATH/Controllers/Customers.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-11-28 06:08:45 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: customers]
+in APPPATH/Controllers/Customers.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-11-28 06:09:04 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: customers]
+in APPPATH/Controllers/Customers.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-11-28 06:09:05 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: customers]
+in APPPATH/Controllers/Customers.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-11-28 06:09:08 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: customers]
+in APPPATH/Controllers/Customers.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-11-28 06:19:01 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: customers]
+in APPPATH/Controllers/Customers.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-11-28 06:19:07 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: customers/create]
+in APPPATH/Controllers/Customers.php on line 4.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-11-28 06:20:25 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: customers]
+in APPPATH/Controllers/Customers.php on line 3.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-11-28 10:55:24 --> Error: Call to undefined function CodeIgniter\Session\Handlers\chmod()
+[Method: GET, Route: /]
+in SYSTEMPATH/Session/Handlers/FileHandler.php on line 140.
+ 1 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read('f12881b237b376dd3e0665495d468543')
+ 2 SYSTEMPATH/Session/Session.php(616): session_start()
+ 3 SYSTEMPATH/Session/Session.php(117): CodeIgniter\Session\Session->startSession()
+ 4 SYSTEMPATH/Config/Services.php(714): CodeIgniter\Session\Session->start()
+ 5 SYSTEMPATH/Config/BaseService.php(325): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 6 SYSTEMPATH/Config/BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 7 SYSTEMPATH/Config/Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 8 SYSTEMPATH/Config/BaseService.php(334): CodeIgniter\Config\Services::session()
+ 9 SYSTEMPATH/Config/BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic('session', [])
+10 SYSTEMPATH/Common.php(1095): CodeIgniter\Config\BaseService::get('session')
+11 SYSTEMPATH/Common.php(1068): service('session')
+12 APPPATH/Controllers/Auth.php(10): session()
+13 SYSTEMPATH/CodeIgniter.php(972): App\Controllers\Auth->login()
+14 SYSTEMPATH/CodeIgniter.php(518): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+15 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+17 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+18 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
